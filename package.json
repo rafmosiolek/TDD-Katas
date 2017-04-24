@@ -1,0 +1,19 @@
+{
+  "name": "tdd-katas",
+  "version": "1.0.0",
+  "description": "test driven development katas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafmosiolek/TDD-Katas.git"
+  },
+  "author": "Raf Mosiolek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafmosiolek/TDD-Katas/issues"
+  },
+  "homepage": "https://github.com/rafmosiolek/TDD-Katas#readme"
+}
