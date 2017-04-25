@@ -11,5 +11,6 @@ describe("PrimeFactors", function() {
         expect(primeFactors.calculate(8)).toEqual([2, 2, 2]);
         expect(primeFactors.calculate(9)).toEqual([3, 3]);
         expect(primeFactors.calculate(10)).toEqual([2, 5]);
+        expect(primeFactors.calculate(2*3*5*7*11*13*23*37)).toEqual([2, 3, 5, 7, 11, 13, 23, 37]);
     });
 });
