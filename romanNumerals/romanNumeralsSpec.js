@@ -12,5 +12,8 @@ describe("RomanNumerals", function() {
         expect(romanNumerals.convert(10)).toEqual("X");
         expect(romanNumerals.convert(20)).toEqual("XX");
         expect(romanNumerals.convert(20)).toEqual("XX");
+        expect(romanNumerals.convert(50)).toEqual("L");
+        expect(romanNumerals.convert(1949)).toEqual("MCMXLIX");
+        expect(romanNumerals.convert(3999)).toEqual("MMMCMXCIX");
     });
 });
